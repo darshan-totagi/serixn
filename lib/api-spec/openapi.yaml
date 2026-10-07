@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: early-access
+    description: Early access signups for the pre-launch beauty brand
 paths:
   /healthz:
     get:
@@ -24,6 +26,31 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /early-access:
+    post:
+      operationId: createEarlyAccessSignup
+      tags: [early-access]
+      summary: Join the early access list
+      description: Stores a pre-launch signup. Submissions are idempotent by email address.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EarlyAccessSignupInput"
+      responses:
+        "202":
+          description: Signup accepted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EarlyAccessSignupResult"
+        "400":
+          description: Invalid signup details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +60,37 @@ components:
           type: string
       required:
         - status
+    EarlyAccessSignupInput:
+      type: object
+      additionalProperties: false
+      properties:
+        firstName:
+          type: string
+          minLength: 1
+          maxLength: 100
+        email:
+          type: string
+          format: email
+          maxLength: 320
+        whatsappNumber:
+          type: string
+          minLength: 7
+          maxLength: 24
+      required:
+        - firstName
+        - email
+    EarlyAccessSignupResult:
+      type: object
+      properties:
+        message:
+          type: string
+      required:
+        - message
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
 

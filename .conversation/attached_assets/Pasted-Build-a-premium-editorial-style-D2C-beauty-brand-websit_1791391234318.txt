@@ -1,0 +1,522 @@
+Build a premium, editorial-style D2C beauty brand website for a new luxury lip oil brand.
+
+IMPORTANT:
+This is NOT a generic ecommerce template.
+Do NOT make it look like a basic Shopify store, dropshipping website, cosmetics template, or startup landing page.
+
+The website should feel like a real, established premium beauty brand with strong art direction, sophisticated typography, cinematic visuals, subtle animations, and exceptional attention to detail.
+
+BRAND:
+The brand is a modern premium beauty label launching with ONE hero product: a luxury lip oil.
+
+The brand is currently in PRE-LAUNCH, so do not pretend that the product is already available for purchase. The primary goal is to build desire, collect early-access signups, and establish the brand identity.
+
+CORE BRAND FEEL:
+- Modern luxury
+- Minimal but expressive
+- Editorial beauty magazine aesthetic
+- Feminine without being overly pink or childish
+- Sophisticated
+- Sensual but tasteful
+- Premium
+- Confident
+- Clean
+- Contemporary
+- Instagram/TikTok-native
+- High-end fashion/beauty campaign feeling
+
+VISUAL DIRECTION:
+Take inspiration from the visual language of premium beauty and fashion brands, but DO NOT copy any existing brand.
+
+Think:
+- luxury skincare campaigns
+- high-fashion editorials
+- premium fragrance websites
+- modern cosmetics campaigns
+- minimalist architecture
+- glossy textures
+- glass
+- liquid reflections
+- soft shadows
+- close-up beauty photography
+- cinematic product photography
+
+COLOR SYSTEM:
+Use a restrained luxury palette.
+
+Primary:
+- warm ivory
+- soft cream
+- deep espresso brown
+- muted nude
+- subtle champagne
+
+Use one very subtle accent color if needed.
+
+Avoid:
+- bright pink
+- excessive gradients
+- neon
+- generic purple
+- overly colorful UI
+- childish beauty aesthetics
+
+TYPOGRAPHY:
+Use a sophisticated serif display font for major headlines and a clean modern sans-serif for body text and UI.
+
+Typography should feel editorial and expensive.
+
+Use large typography and generous whitespace.
+
+LAYOUT:
+The website should feel spacious and intentional.
+
+Do not fill every area with content.
+
+Use:
+- oversized typography
+- asymmetric editorial layouts
+- large photography
+- full-screen sections
+- overlapping elements
+- subtle horizontal dividers
+- generous margins
+- strong visual hierarchy
+
+NAVIGATION:
+Create a refined minimal navigation.
+
+Left:
+BRAND LOGO
+
+Center or navigation:
+Shop
+The Story
+Journal
+
+Right:
+Search
+Account
+Bag
+
+Since this is pre-launch, the main CTA should be:
+GET EARLY ACCESS
+
+Do not make the navigation bulky.
+
+HOMEPAGE STRUCTURE:
+
+1. CINEMATIC HERO
+
+Create an immersive hero section.
+
+Use a high-quality close-up visual of glossy lips / lip oil texture / premium cosmetic packaging.
+
+Large headline:
+
+"YOUR LIPS,
+ELEVATED."
+
+Small supporting text:
+
+"A new generation of lip care, made to be seen."
+
+Primary CTA:
+
+"GET EARLY ACCESS"
+
+Secondary CTA:
+
+"DISCOVER THE STORY"
+
+The hero should immediately communicate luxury.
+
+Add subtle entrance animations.
+
+Do NOT use cheesy animations.
+
+---
+
+2. BRAND STATEMENT
+
+Create a large editorial statement section.
+
+Example:
+
+"WE BELIEVE
+LIP CARE SHOULD
+LOOK AS GOOD
+AS IT FEELS."
+
+Use oversized typography with lots of whitespace.
+
+Make this section visually dramatic.
+
+---
+
+3. PRODUCT TEASER
+
+Introduce the hero product without making the website look like a normal product listing.
+
+Show a large premium product render / placeholder image.
+
+Product name:
+
+"[PRODUCT NAME]"
+
+Category:
+
+"LUXURY LIP OIL"
+
+Description:
+
+"A weightless veil of shine, comfort and effortless color."
+
+CTA:
+
+"MEET THE FORMULA"
+
+If the final formulation is not known yet, do not invent ingredient claims.
+
+---
+
+4. TEXTURE / SENSORY SECTION
+
+Create a visually rich section showing the product texture.
+
+Use close-up liquid/gloss imagery.
+
+Use short statements:
+
+"GLASS-LIKE SHINE"
+
+"WEIGHTLESS FEEL"
+
+"EVERYDAY COLOR"
+
+Make each statement appear through subtle scroll-based animation.
+
+Do not make unsupported product claims.
+
+---
+
+5. THE STORY
+
+Create an editorial section explaining why the brand exists.
+
+Headline:
+
+"BEAUTY, WITHOUT THE NOISE."
+
+Supporting copy:
+
+"We're building a beauty brand around one idea:
+fewer products, better experiences."
+
+The story should emphasize:
+- intentionality
+- simplicity
+- quality
+- modern beauty
+- one hero product
+
+Use an editorial image alongside the text.
+
+---
+
+6. INGREDIENTS / FORMULA
+
+Create a sophisticated ingredients section.
+
+IMPORTANT:
+Do NOT invent ingredients.
+
+Use clearly marked placeholder content until the final manufacturer/formula is confirmed.
+
+Example:
+
+"THE FORMULA"
+
+"Thoughtfully developed for a comfortable, glossy finish."
+
+Include placeholder ingredient cards that can later be replaced with verified information.
+
+Do not make medical, therapeutic, or exaggerated claims.
+
+---
+
+7. SHADE / PRODUCT EXPERIENCE
+
+Design a premium interactive product section.
+
+Show the lip oil in close-up.
+
+If the launch begins with one shade, display:
+
+01 — [SHADE NAME]
+
+Include an interactive hover or swipe effect.
+
+Make this feel like a beauty campaign rather than a product grid.
+
+---
+
+8. SOCIAL PROOF / COMMUNITY
+
+Because this is a new brand and does not yet have customer reviews, DO NOT create fake testimonials.
+
+Instead create:
+
+"JOIN THE FIRST DROP"
+
+"Be among the first to experience it."
+
+Show a counter or visual indicator:
+
+"FIRST 100"
+
+But don't falsely claim that 100 people have already joined.
+
+---
+
+9. EARLY ACCESS SIGNUP
+
+This is one of the most important sections.
+
+Create a beautiful premium signup form.
+
+Headline:
+
+"BE FIRST."
+
+Text:
+
+"Join the first drop and receive early access when we launch."
+
+Fields:
+
+First name
+Email
+WhatsApp number (optional)
+
+CTA:
+
+"JOIN THE LIST"
+
+After submission show:
+
+"YOU'RE IN."
+
+"Watch your inbox. Something beautiful is coming."
+
+Do not require unnecessary information.
+
+---
+
+10. INSTAGRAM / SOCIAL SECTION
+
+Create an editorial Instagram-style section.
+
+Heading:
+
+"FOLLOW THE JOURNEY"
+
+Show a grid of 6–9 visual tiles.
+
+These should feel like:
+- campaign photography
+- behind-the-scenes
+- textures
+- packaging
+- beauty closeups
+- lifestyle imagery
+
+Link to the actual Instagram account.
+
+Do not create fake social engagement numbers.
+
+---
+
+11. JOURNAL
+
+Create a small editorial journal section.
+
+Example articles:
+
+"Why we're starting with one product"
+
+"What makes a lip oil different?"
+
+"The art of effortless shine"
+
+"Building a beauty brand from scratch"
+
+The journal should help SEO and establish brand personality.
+
+---
+
+12. FINAL CTA
+
+End with a dramatic full-screen section.
+
+Headline:
+
+"READY FOR
+THE FIRST DROP?"
+
+CTA:
+
+"GET EARLY ACCESS"
+
+Use a beautiful dark/cream visual transition.
+
+---
+
+FOOTER:
+
+Keep it minimal and premium.
+
+Include:
+
+Shop
+Our Story
+Journal
+FAQ
+Contact
+Shipping
+Privacy
+Terms
+Instagram
+
+Newsletter signup.
+
+Add:
+
+© [BRAND NAME]
+
+Do not clutter the footer.
+
+INTERACTIONS:
+
+Use subtle premium micro-interactions:
+
+- smooth page transitions
+- elegant hover states
+- image reveal animations
+- text reveal on scroll
+- subtle parallax
+- smooth image scaling
+- button hover animations
+- cursor interactions where appropriate
+- sticky navigation that changes appearance after scrolling
+
+Animations should be:
+FAST
+SMOOTH
+SUBTLE
+PREMIUM
+
+Avoid:
+- bouncing elements
+- excessive motion
+- flashy gradients
+- spinning objects
+- gimmicky cursor effects
+- excessive loading animations
+
+MOBILE EXPERIENCE:
+
+The mobile version is extremely important.
+
+Design mobile intentionally rather than simply shrinking desktop.
+
+Ensure:
+- excellent typography
+- fast loading
+- thumb-friendly buttons
+- clean navigation
+- beautiful product imagery
+- no horizontal overflow
+- excellent spacing
+- signup form is easy to use
+
+PERFORMANCE:
+
+Despite the premium visuals, the website must be fast.
+
+Optimize:
+- images
+- lazy loading
+- responsive images
+- animations
+- fonts
+- JavaScript
+
+Do not sacrifice performance for visual effects.
+
+TECHNICAL REQUIREMENTS:
+
+Build reusable components.
+
+Use clean, maintainable architecture.
+
+Make the following content configurable:
+- brand name
+- logo
+- product name
+- product images
+- product description
+- price
+- shade
+- ingredients
+- social links
+- email signup destination
+
+The website should be easy to convert from PRE-LAUNCH mode to FULL ECOMMERCE mode later.
+
+PRE-LAUNCH MODE:
+Primary CTA = GET EARLY ACCESS
+
+FULL LAUNCH MODE:
+Primary CTA = SHOP NOW
+
+Do not build fake checkout functionality during pre-launch.
+
+SEO:
+Include:
+- semantic HTML
+- proper title/meta descriptions
+- Open Graph metadata
+- structured headings
+- optimized image alt text
+- sitemap-ready architecture
+- clean URLs
+- fast loading
+- mobile-first design
+
+ANALYTICS:
+Prepare the website for analytics tracking.
+
+Track:
+- page views
+- CTA clicks
+- signup conversions
+- Instagram clicks
+- scroll depth
+- product interactions
+
+IMPORTANT BRAND RULE:
+
+The website should feel like a brand people WANT to belong to, not a website trying to sell them something.
+
+The final result should look like a premium beauty campaign that happens to be an ecommerce website.
+
+Think:
+EDITORIAL + BEAUTY + LUXURY + CULTURE + PRODUCT.
+
+NOT:
+GENERIC ECOMMERCE + TEMPLATE + DROPSHIPPING.
+
+Make the final design visually striking enough that someone landing on it for the first time immediately thinks:
+
+"This looks like a serious beauty brand."

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Luxury Lip Oil Launch"
+description = "An editorial pre-launch website for a premium beauty brand, built to introduce its hero lip oil and collect early-access signups."
+version = "1.0.0"
+id = "artifacts/lip-oil-launch"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20143
+
+[services.development]
+run = "pnpm --filter @workspace/lip-oil-launch run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/lip-oil-launch", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/lip-oil-launch/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20143"
+BASE_PATH = "/"
