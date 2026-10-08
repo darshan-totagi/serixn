@@ -1,0 +1,5 @@
+[build.environment]
+  # PORT is a short numeric value used only for local dev servers. The same
+  # number naturally occurs in bundled library code (react-dom), which secrets
+  # scanning flags as a false positive. It isn't a secret, so skip it.
+  SECRETS_SCAN_OMIT_KEYS = "PORT"
