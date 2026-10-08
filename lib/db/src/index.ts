@@ -4,10 +4,7 @@ import * as schema from "./schema";
 
 const { Pool } = pg;
 
-const EXACT_DATABASE_URL =
-  "postgresql://neondb_owner:npg_dXi7Z0Vxjqpy@ep-holy-bread-b5sty2m4-pooler.c-7.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require";
-
-const dbUrl = EXACT_DATABASE_URL || process.env.DATABASE_URL;
+const dbUrl = process.env.DATABASE_URL;
 
 if (!dbUrl) {
   throw new Error(
