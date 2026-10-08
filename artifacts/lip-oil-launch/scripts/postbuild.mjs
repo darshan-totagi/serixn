@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const appDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const outputDir = path.join(appDir, 'dist/public');
+const outputDir = path.join(appDir, 'dist');
 const indexPath = path.join(outputDir, 'index.html');
 const sitemapPath = path.join(outputDir, 'sitemap.xml');
 const robotsPath = path.join(outputDir, 'robots.txt');
