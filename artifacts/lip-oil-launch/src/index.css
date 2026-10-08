@@ -178,6 +178,10 @@
 .shade-dot.is-active, .shade-choice:hover .shade-dot { outline: 1px solid var(--ink); outline-offset: 3px; }
 .formula-link { margin-top: 20px; }
 .availability-note { margin-top: 35px; color: var(--ink-soft); font-size: 8px; letter-spacing: .14em; }
+.price-display { margin: 24px 0 0; padding: 22px 0 20px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; }
+.price-amount { font-family: var(--app-font-serif); font-size: clamp(28px, 3.2vw, 38px); letter-spacing: -.01em; color: var(--ink); font-weight: 400; line-height: 1; }
+.price-note { color: var(--ink-soft); font-size: 9px; letter-spacing: .18em; text-transform: uppercase; font-style: italic; font-weight: 500; }
+.product-cta { margin-top: 32px; }
 .sensory { display: grid; grid-template-columns: 1.08fr .92fr; background: #b58d7c; min-height: 660px; color: #fbf4ea; }
 .sensory-image { position: relative; overflow: hidden; min-height: 620px; }
 .sensory-image img { object-position: center; }

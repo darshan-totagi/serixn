@@ -27,6 +27,10 @@ if (!basePath) {
   );
 }
 
+// Backend API port — defaults to 3001, must match api-server/.env PORT
+const backendPort = Number(process.env.BACKEND_PORT ?? 3001);
+const apiTarget = `http://localhost:${backendPort}`;
+
 export default defineConfig({
   base: basePath,
   plugins: [
@@ -72,6 +76,13 @@ export default defineConfig({
     fs: {
       strict: true,
     },
+    proxy: {
+      '/api': {
+        target: apiTarget,
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
   preview: {
     port,
@@ -79,3 +90,4 @@ export default defineConfig({
     allowedHosts: true,
   },
 });
+

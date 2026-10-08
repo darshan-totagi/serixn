@@ -210,12 +210,18 @@ function LaunchPage() {
               <span className="eyebrow">{brandConfig.brandName.toUpperCase()} · LIP OIL Nº 01</span>
               <h3 className="serif" id="product-name">{brandConfig.productName}</h3>
               <p className="eyebrow product-category">LUXURY LIP OIL</p>
+              {brandConfig.price && (
+                <div className="price-display">
+                  <span className="price-amount">{brandConfig.price}</span>
+                  <span className="price-note eyebrow">Expected launch price</span>
+                </div>
+              )}
               <p className="product-description">{brandConfig.productDescription}</p>
-              <div className="product-meta"><div><span className="eyebrow">SHADE</span><p>01 — {brandConfig.shadeName}</p></div>{brandConfig.launchMode === 'full' && brandConfig.price && <span className="eyebrow product-price">{brandConfig.price}</span>}</div>
+              <div className="product-meta"><div><span className="eyebrow">SHADE</span><p>01 — {brandConfig.shadeName}</p></div></div>
               <button className="shade-choice" type="button" aria-label={`Explore shade ${brandConfig.shadeName}`} aria-pressed={activeShade === 0} onClick={() => handleShade(0)} data-testid="button-shade">
                 <span className={`shade-dot ${activeShade === 0 ? 'is-active' : ''}`}></span><span className="eyebrow">01 · {brandConfig.shadeName}</span><ArrowUpRight size={15} />
               </button>
-              <a href="#formula" className="cta-link formula-link">MEET THE FORMULA <span>↗</span></a>
+              <AccessLink className="product-cta" />
               <p className="availability-note">PRE-LAUNCH · JOIN FOR FIRST ACCESS</p>
             </div>
           </div>
