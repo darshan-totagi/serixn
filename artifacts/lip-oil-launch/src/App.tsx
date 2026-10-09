@@ -264,10 +264,30 @@ function LaunchPage() {
           <div className="formula-grid">
             <div className="formula-heading reveal"><h2 className="serif">The formula,<br /><em>still unfolding.</em></h2></div>
             <div className="formula-copy reveal reveal-delay-2">
-              <p className="eyebrow">THOUGHTFULLY DEVELOPED FOR A COMFORTABLE, GLOSSY FINISH.</p>
-              <p>We’re taking the time to get the details right. The final formula and ingredient list will be shared here once confirmed.</p>
-              <div className="ingredient-placeholder"><span className="eyebrow">INGREDIENTS</span><span>{brandConfig.ingredients}</span></div>
-              <div className="ingredient-placeholder"><span className="eyebrow">FORMULA STATUS</span><span>In development · final details to follow</span></div>
+              <p className="eyebrow">OUR FORMULA PRIORITIES</p>
+              <ul className="formula-priorities">
+                <li>
+                  <span className="priority-check">✓</span>
+                  <div>
+                    <strong>A glass-like shine</strong>
+                    <p>A glossy finish that catches the light.</p>
+                  </div>
+                </li>
+                <li>
+                  <span className="priority-check">✓</span>
+                  <div>
+                    <strong>Comfort-first texture</strong>
+                    <p>Designed to feel smooth and comfortable on the lips.</p>
+                  </div>
+                </li>
+                <li>
+                  <span className="priority-check">✓</span>
+                  <div>
+                    <strong>A subtle wash of colour</strong>
+                    <p>A considered tint designed for everyday wear.</p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="formula-foot eyebrow">NO CLAIMS BEFORE THE FACTS. ALWAYS.</div>

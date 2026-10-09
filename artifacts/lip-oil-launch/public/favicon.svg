@@ -1,3 +1,20 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+  <!-- Background: warm nude rounded square -->
+  <rect width="180" height="180" rx="36" fill="#f5f0e7"/>
+  <!-- Gold gradient definition -->
+  <defs>
+    <linearGradient id="gold" x1="50" y1="30" x2="130" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c9a84c"/>
+      <stop offset="50%" stop-color="#e8c97a"/>
+      <stop offset="100%" stop-color="#a0722a"/>
+    </linearGradient>
+  </defs>
+  <!-- Elegant "S" letterform -->
+  <path d="M108 52 C108 52 118 54 118 67 C118 78 107 82 96 84 C82 87 68 91 68 106 C68 121 80 128 94 128 C104 128 113 124 118 118"
+        stroke="url(#gold)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M72 62 C72 62 82 52 96 52 C108 52 118 58 118 67"
+        stroke="url(#gold)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Oil droplet accent -->
+  <path d="M118 52 C118 52 118 43 124 38 C130 33 130 28 124 25 C118 22 112 27 112 34 C112 41 118 52 118 52 Z"
+        fill="url(#gold)"/>
 </svg>

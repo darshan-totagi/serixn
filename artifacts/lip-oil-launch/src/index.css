@@ -213,9 +213,12 @@
 .formula-copy { max-width: 450px; padding-top: 8px; }
 .formula-copy > .eyebrow { line-height: 1.8; }
 .formula-copy > p:not(.eyebrow) { font-size: 13px; line-height: 1.8; margin: 25px 0 35px; color: var(--ink-soft); }
-.ingredient-placeholder { border-top: 1px solid var(--line); display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 17px 0; font-size: 11px; line-height: 1.7; }
-.ingredient-placeholder:last-child { border-bottom: 1px solid var(--line); }
-.ingredient-placeholder > :last-child { color: var(--ink-soft); }
+.formula-priorities { list-style: none; margin: 28px 0 0; padding: 0; display: flex; flex-direction: column; gap: 0; }
+.formula-priorities li { display: flex; align-items: flex-start; gap: 18px; padding: 20px 0; border-top: 1px solid var(--line); }
+.formula-priorities li:last-child { border-bottom: 1px solid var(--line); }
+.priority-check { font-size: 15px; font-weight: 500; color: #a07a50; flex-shrink: 0; margin-top: 1px; letter-spacing: 0; font-family: serif; }
+.formula-priorities strong { display: block; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; font-weight: 500; color: var(--ink); margin-bottom: 5px; }
+.formula-priorities p { font-size: 13px; line-height: 1.7; color: var(--ink-soft); margin: 0; }
 .formula-foot { border-top: 1px solid var(--line); padding-top: 14px; color: var(--ink-soft); }
 .shade-story { display: grid; grid-template-columns: 1fr 1fr; min-height: 730px; background: #c9aa99; color: var(--ink); }
 .shade-visual { position: relative; min-height: 600px; overflow: hidden; }
